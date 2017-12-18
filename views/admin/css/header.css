@@ -1,0 +1,50 @@
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+<style>
+header {
+background-color: rgb(172,174,178);
+z-index: 1;
+top:0px;
+left:0px;
+overflow: auto;
+width:100%;
+position:relative;
+box-shadow: 0px 5px 5px #888888;
+}
+.blue-bold{
+  color:  #0088ff;
+  font-weight: bold;
+}
+h1, h2, h3, h4, a {
+font-family: 'Oswald', sans-serif;
+}
+
+p {
+font-family: 'Dosis', sans-serif;
+}
+
+a {
+text-decoration: none;
+color: #323232;
+}
+.logo {
+    
+padding:20px;
+float:left;
+}
+.main-nav{
+float:right;
+margin:5px;
+}
+nav ul li {
+  display:inline-block;
+  padding: 5px;
+}
+
+   body{
+margin:0px ;
+background-image: url("https://www.walldevil.com/wallpapers/a77/reportadmin-pictures-background-computer.jpg");
+background-size: cover;
+}
+
+</style>

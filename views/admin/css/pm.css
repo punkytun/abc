@@ -1,0 +1,26 @@
+body { 
+margin:0px; 
+}
+
+#container{ 
+width: 100%;
+border:1px solid gray;
+
+}
+#header{
+background-color: greenyellow;
+color :white;
+text-align: center;
+}
+
+#content{
+margin:15px;  
+}
+
+#footer{
+background-color:#ddd;
+font-size: 18px;
+text-align:center;
+padding: 15px;
+}
+

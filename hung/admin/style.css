@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+	margin:0px;
+	padding:0px; 
+}
+body{
+	width:100%;
+	display:-moz-box;/* Firefox */
+	-moz-box-pack:center;/* Firefox */
+	display:-webkit-box;/* Safari and Chrome */
+	-webkit-box-pack:center;/* Safari and Chrome */
+}
+#main{
+	width:100%;
+}
+#main_left{
+	padding: 10px 10px 0px 10px;
+	float:left; 
+	width:35%;
+}
+#main_right{
+	width:60%;
+	padding: 10px 10px 0px 10px; 
+	float:right;  
+	color: #00F; 
+	
+}
+table{
+	border-radius: 10px 10px 10px 10px; 
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+td,th{
+	border: 1px solid black;
+	
+}
+
+

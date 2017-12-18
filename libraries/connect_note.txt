@@ -1,0 +1,1 @@
+mysql_connect kết nối tới database với 3 tham số (username,server,password). Kết nối thành công thì mysql_pconnect trả về dữ liệu kết nối và gán bào viến $connect.
