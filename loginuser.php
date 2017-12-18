@@ -8,9 +8,7 @@ session_start();
 //}
 
 //require
-require '/configs/config.php';
-require '/libraries/connect.php';
-require '/models/user.php';
+
 //kiem tra du lieu post len
 if (isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password'])){
 //gan tai khoan va mk nhan duoc tu form vao 2 bien duoi day
@@ -26,7 +24,7 @@ if($user && $user['password'] === md5($password)){
 $_SESSION['user'] = $user;
 
 //quay ve trang admin
-header('location:..\..\templates\front\welcome.php');
+header('location:\welcome.php');
 }else{
 $error = true;
 }
