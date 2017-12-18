@@ -1,3 +1,3 @@
-<php
-echo "CC";
+<?php
+echo 'Current PHP version: ' .phpversion();
 ?>
