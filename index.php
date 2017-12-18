@@ -1,1 +1,3 @@
-echo "CC"
+<php
+echo "CC";
+?>
