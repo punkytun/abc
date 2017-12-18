@@ -1,10 +1,4 @@
-<?php
-if(!isset($_SESSION)){
-    session_start();
-    require_once("dbcontroller.php");
-    $db_handle = new DBController();
-}
-?>
+
 <!DOCTYPE HTML>
 <html>
 <head>
