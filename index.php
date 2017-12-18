@@ -1,5 +1,5 @@
-<?php include '/css/header.css'?>
-	<?php require '/css/header-basic.css'?>
+<?php include '/css/header.css';?>
+	<?php require '/css/header-basic.css';?>
 	<?php require '/css/footer.css';?>
 
 <!DOCTYPE html>
