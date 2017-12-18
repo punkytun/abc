@@ -1,7 +1,7 @@
 sURL: http://creativecommons.org/licenses/by/3.0/
 -->
 <?php
-require '../../admin/user/loginuser.php';
+require '/admin/user/loginuser.php';
 
 ?>
 <?php include('header.php') ?>
