@@ -11,13 +11,13 @@
 
 
 </head>
-  <?php require '/css/header.css'?>
+  <?php include '/css/header.css'?>
     <?php require '/css/header-basic.css'?>
     <?php require '/css/footer.css';?>
       <header class="header-basic">
         	<div class="header-limiter">
         <div class="logo">
-          <a href="<?php echo SITE_URL . 'admin/home.php'; ?>"><h1><span class="blue-bold">MT </span>- PEE</h1></a>
+        
         </div>
         <div class="main-nav">
           <nav>
