@@ -8,7 +8,9 @@ session_start();
 //}
 
 //require
-
+include("config.php");
+include("connect.php");
+include("user.php");
 //kiem tra du lieu post len
 if (isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password'])){
 //gan tai khoan va mk nhan duoc tu form vao 2 bien duoi day
