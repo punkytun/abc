@@ -1,3 +1,7 @@
+<?php include '/css/header.css'?>
+	<?php require '/css/header-basic.css'?>
+	<?php require '/css/footer.css';?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,13 +11,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Quản trị - Thành viên - Danh sách</title>
-<?php echo 'cvcvcvc';?>
+
 
 
 </head>
-  <?php include '/css/header.css'?>
-    <?php require '/css/header-basic.css'?>
-    <?php require '/css/footer.css';?>
       <header class="header-basic">
         	<div class="header-limiter">
         <div class="logo">
@@ -21,7 +22,7 @@
         </div>
         <div class="main-nav">
           <nav>
-             <?php require '/common/menu.php'; ?>
+             <?php include  '/common/menu.php'; ?>
         </nav>
                 </div></div>
       </header>
