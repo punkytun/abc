@@ -70,17 +70,15 @@ if(!isset($_SESSION)){
 						    	<li><a href="shop.php">Shop</a></li>
 						    	<li><a href="team.php">Team</a></li>
 						    	<li><a href="galery.php">Galery</a></li>
-<<<<<<< HEAD
+
 								<li><a href="contact.php">Contact</a></li>
                                 <li><a href="feedback.php">Feedback</a></li>
                                 <div class="clear"></div>
-=======
 						    	<li><a href="shop.php">Company</a></li>
                   <li><a href="feedback.php">Feedback</a></li>
 
 								<li><a href="contact.html">Contact</a></li>
 								<div class="clear"></div>
->>>>>>> c33bcd7bebcfd50f57e974f80e417e0b9722dcc6
 							</ul>
 							<script type="text/javascript" src="js/responsive-nav.js"></script>
 				    </div>
@@ -116,7 +114,6 @@ if(!isset($_SESSION)){
                           $12.00</span></li>
 						  <div class="login_buttons">
 							 <div class="check_button"><a href="checkout.php">Check out</a></div>
-<<<<<<< HEAD
                 <?php
                 if(isset($_SESSION['user'])){
                   echo '<div class="login_button"><a href="../../admin/user/logoutuser.php">Logout</a></div>';
@@ -127,9 +124,7 @@ if(!isset($_SESSION)){
                  ?>
 
 
-=======
 							 <div class="login_button"><a href="login.php">Login</a></div>
->>>>>>> c33bcd7bebcfd50f57e974f80e417e0b9722dcc6
 							 <div class="clear"></div>
 						  </div>
 						  <div class="clear"></div>
