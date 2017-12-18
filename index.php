@@ -17,11 +17,11 @@
       <header class="header-basic">
         	<div class="header-limiter">
         <div class="logo">
-        
+
         </div>
         <div class="main-nav">
           <nav>
-             <?php require '/common/menu.tpl.php'; ?>
+             <?php require '/common/menu.php'; ?>
         </nav>
                 </div></div>
       </header>
